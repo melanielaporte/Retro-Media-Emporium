@@ -40,4 +40,3 @@ I’m inspired by 90s video stores and classic libraries. The Retro Media Empori
 
 ## How to contribute: 
 Want to help? You can add support for DVDs and CDs, implement file saving, or create a graphical interface with Swing.
-Fork me!
