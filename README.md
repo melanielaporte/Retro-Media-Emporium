@@ -46,6 +46,28 @@ RetroMediaEmporium/
 ├── logo.png
 └── assets/      (wireframes, mockups, screenshots, GIFs, photos, 3D assets)
 ```
+## Logic Diagram
+```mermaid
+flowchart TD
+
+    A[User selects an action] --> B{Checkout or Return?}
+
+    %% LEND FLOW
+    B -->|Lend Book| C{Is the book already lent?}
+    C -->|No| D[Mark book as lent]
+    D --> E[Store borrower name]
+    E --> F[Confirm: Book lent successfully]
+
+    C -->|Yes| G[Display error: Book already lent]
+
+    %% RETURN FLOW
+    B -->|Return Book| H{Is the book currently lent?}
+    H -->|Yes| I[Clear borrower name]
+    I --> J[Mark book as available]
+    J --> K[Confirm: Book returned]
+
+    H -->|No| L[Display error: Book was not lent out]
+```
 
 ## Inspiration
 Inspired by 90s video stores and classic libraries, RME captures the joy of browsing physical media, sharing it with friends, and keeping things organized  in one digital and playful package.
