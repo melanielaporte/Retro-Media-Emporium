@@ -1,42 +1,42 @@
 <img width="500" height="500" align="right" alt="new logo" src="https://github.com/user-attachments/assets/5e8c19a4-c013-49fe-a43f-d7b8fa7b08f2" />
 
-# Welcome to Retro Media Emporium (RME)
-This is a simple Java program I am building to help me keep track of my personal collection of books, DVDs, and CDs. Over the years, I’ve  curated a robust library of physical media. Friends often borrow things, and sometimes items don’t make it back or memories of lending fade. RME helps me know who has borrowed what, making lending fun, organized, and community-oriented. 
+# Retro Media Emporium
+Retro Media Emporium (RME) is a Java program I am building to track my personal collection of books, DVDs, and CDs. Over the years, I’ve curated a robust library of physical media. Friends often borrow items, and sometimes things don’t make it back or memories of lending fade. RME keeps everything organized, making lending fun, social, and accountable.
 
-## Why I built this:
-I wanted a project that is both practical and nostalgic. It’s a chance to practice Java while also celebrating my love for physical media and building a sense of community through sharing. 
-I may create little physical cards or a mini card catalog like a 90s-style library system - cute, tactile, and reminiscent of Blockbuster video days.
+## Why I Built This
+I wanted a project that is practical, nostalgic, and playful. It allows me to practice Java while celebrating my love of physical media and fostering a sense of community. I may even create little physical cards or a mini card catalog, a combination of a 90s-style library system and Blockbuster video store.
 
-## Learning goals: 
-This project shows core Java concepts I learned in my first semester at Columbia University:
-- Object-oriented programming 
-- ArrayLists for managing collections
-- Loops and conditionals for menu navigation
-- File handling (planned upgrade)
+## Learning Goals 
+- Object-oriented programming with classes, encapsulation, methods, and constructors (Book.java and Library.java).
+- Strings & data representation for titles, authors, borrower names.
+- Control flow with loops and conditionals for menu navigations.
+- Collections to manage media using ArrayLists.
+- File handling (planned) to save and load the library between sessions, continuity.
+   
+## Current Features
+- Add new books to the library.
+- Register friends as borrowers.
+- Lend books to friends and mark them as returned.
+- View which items are available and which are currently lent out.
 
-## Current features: 
-- Add new books to the library
-- Register friends as borrowers
-- Lend books to friends and mark them as returned
-- View which items are available and which are currently lent out
+## Future Features
+- Save and load the library to a file.
+- Add DVDs, CDs, and possibly tools like a soldering iron or electronics.
+- Physical card catalog/retro UI (icy Y2K asthetic or dark 90s industrial).
+- Create 3D assets in Blender.
 
-## Future Features:
-- Save and load the library to a file
-- Add DVDs, CDs, and possibly tools like a soldering iron or electronics
-- Physical card catalog/retro UI (icy Y2K asthetic or gray industrial 90s)
-- Create 3D assets in Blender
-
-## Stack used:
+## Stack used
 - Java
-- HTML, CSS, JS (future appearance upgrades)
+- HTML, CSS, JS (future appearance and interactive upgrades)
+- Blender to build assets (future)
 
 ## How to run the project:
 1. Clone the repository.
-2. Open the project in a Java IDE.
-3. Run LibraryApp.java and follow the on-screen menu.
+2. Open the project in a Java IDE of choice.
+3. Run LibraryApp.java, and follow the on-screen menu.
 
-## The inspiration:
-I’m inspired by 90s video stores and classic libraries. The Retro Media Emporium is meant to capture the joy of browsing physical media, sharing with friends, and keeping things organized, all in a digital, playful package.
+## Inspiration
+Inspired by 90s video stores and classic libraries, RME captures the joy of browsing physical media, sharing it with friends, and keeping things organized  in one digital and playful package.
 
-## How to contribute: 
-Want to help? You can add support for DVDs and CDs, implement file saving, or create a graphical interface with Swing.
+## How to Contribute
+Want to contribute? You can add support for DVDs and CDs, implement file saving, or create a graphical interface with Swing.
