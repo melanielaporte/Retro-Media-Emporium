@@ -37,7 +37,7 @@
         return borrower;
     }
 
-    // loop- lend book and return it back to library
+    // Lend the book to a borrower if it is available
         // is the book already lent to anyone? true = not in the library, 
     public void lendBook(String borrowerName) {
         if (!isLent) {
@@ -52,13 +52,13 @@
         }
     }
 
-        // if someones returns a rogue book, not in the library list
-        // if isLent is false = in the library, display message book is not lent, available  
+    // Handle attempts to return a book that was not lent out
+    // if isLent is false = in the library, display message book is not lent, available  
     public void returnBook() {
         if (isLent) {
              // display name of person who checked out the book
             // it is lent, unavailable           
-            System.out.println(title + " returned by " + borrowerName);
+            System.out.println(title + " returned by " + borrower);
             isLent = false;
             // no borrower, checked back into library
             borrower = null;
