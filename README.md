@@ -35,8 +35,20 @@ I wanted a project that is practical, nostalgic, and playful. It allows me to pr
 2. Open the project in a Java IDE of choice.
 3. Run LibraryApp.java, and follow the on-screen menu.
 
+## File Structure
+```
+RetroMediaEmporium/
+├── src/
+│   ├── Book.java
+│   ├── Library.java
+│   └── LibraryApp.java
+├── README.md
+├── logo.png
+└── assets/      (wireframes, mockups, screenshots, GIFs, photos, 3D assets)
+```
+
 ## Inspiration
 Inspired by 90s video stores and classic libraries, RME captures the joy of browsing physical media, sharing it with friends, and keeping things organized  in one digital and playful package.
 
 ## How to Contribute
-Want to contribute? You can add support for DVDs and CDs, implement file saving, or create a graphical interface with Swing.
+Want to contribute? You can add support for DVDs and CDs, implement file saving, or create a graphical interface.
