@@ -1,14 +1,12 @@
 <img width="500" height="500" align="right" alt="new logo" src="https://github.com/user-attachments/assets/5e8c19a4-c013-49fe-a43f-d7b8fa7b08f2" />
 
 # Welcome to Retro Media Emporium (RME)
-This is a simple Java program I built to help me keep track of my personal collection of books, DVDs, and CDs. Over the years, I’ve slowly curated a robust library of physical media. Friends often borrow things, and sometimes items don’t make it back or memories of lending fade.
-
-RME helps me know who has borrowed what, making lending fun, organized, and community-oriented. I even imagine creating little physical cards or a mini card catalog—like a proper 90s-style library system - cute, tactile, and reminiscent of Blockbuster video days.
+This is a simple Java program I built to help me keep track of my personal collection of books, DVDs, and CDs. Over the years, I’ve slowly curated a robust library of physical media. Friends often borrow things, and sometimes items don’t make it back or memories of lending fade. RME helps me know who has borrowed what, making lending fun, organized, and community-oriented. 
 
 ## Why I built this:
 I wanted a project that is both practical and nostalgic. 
 It’s a chance to practice Java while also celebrating my love for physical media and building a sense of community through sharing. 
-I might make actual little cards for each book, DVD, or CD just for fun.
+I may create little physical cards or a mini card catalog like a 90s-style library system - cute, tactile, and reminiscent of Blockbuster video days.
 
 ## Learning goals: 
 This project shows core Java concepts I learned in my first semester at Columbia University:
