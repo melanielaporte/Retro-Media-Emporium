@@ -19,20 +19,28 @@ public class Library {
         books = new ArrayLIst<>();
         scanner = new Scanner(System.in);
     }
-    // add new book to library
+    // To add new book to library, user adds title & author
     public void addBook {
         // user INPUT
         System.out.println("Enter book title: ");
         String title = scanner.nextLine();
-
         System.out.println("Enter book author: ");
         String title = scanner.nextLine();  
         // new book created
         Book newBook = new Book(title, author);
         books.add(newBook);
-        
         // alert user book has been added to inventory/bookshelf
         System.out.println("Book has been added: " + title + "by " + author);
     }
 
-  
+    // show complete book list/inventory
+    public 
+    // lend a book
+
+    // return a book
+
+    // store all books
+
+
+
+}
