@@ -38,22 +38,23 @@ public class Library {
         System.out.println("Library Inventory: ");
     }
 
-    // lend a book-need name of borrower & title
-    // & display book is or not available/in library
-    public void displayBooks() {
-        // title user input
+     // lend a book
+    public void lendBook() {  
         System.out.println("Enter book title to borrow: ");
         String title = scanner.nextLine();
 
-        // borrower, stored
-        System.out.println("Enter name of borrower: ");
-        String title = scanner.nextLine();
-        
-
-    }
-    // return a book-need book title
-
-    // store all books
+    // scan library inventory
+    // if scan find the book, book
+        Book book = findBookByTitle(title);
+           if (book != null) {
+                System.out.println("Enter name of borrower: ");
+                String title = scanner.nextLine(); 
+                book.lendBook(borrower);               
+            } else {
+                System.out.println("Book lent to: " + borrower);
+            }
+            
+           
 
 
 
