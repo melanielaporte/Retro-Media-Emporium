@@ -33,8 +33,11 @@ public class Library {
         System.out.println("Book has been added: " + title + "by " + author);
     }
 
-    // show complete book list/inventory
-    public 
+    // display complete book list/inventory/collection/database?
+    public void displayBooks() {
+        System.out.println("Library Inventory:");
+    }
+
     // lend a book
 
     // return a book
