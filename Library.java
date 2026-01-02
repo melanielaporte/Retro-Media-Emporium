@@ -30,17 +30,28 @@ public class Library {
         Book newBook = new Book(title, author);
         books.add(newBook);
         // alert user book has been added to inventory/bookshelf
-        System.out.println("Book has been added: " + title + "by " + author);
+        System.out.println("Library Inventory:");
     }
 
     // display complete book list/inventory/collection/database?
     public void displayBooks() {
-        System.out.println("Library Inventory:");
+        System.out.println("Library Inventory: ");
     }
 
-    // lend a book
+    // lend a book-need name of borrower & title
+    // & display book is or not available/in library
+    public void displayBooks() {
+        // title user input
+        System.out.println("Enter book title to borrow: ");
+        String title = scanner.nextLine();
 
-    // return a book
+        // borrower, stored
+        System.out.println("Enter name of borrower: ");
+        String title = scanner.nextLine();
+        
+
+    }
+    // return a book-need book title
 
     // store all books
 
