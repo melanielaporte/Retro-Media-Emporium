@@ -39,23 +39,27 @@ public class Library {
     }
 
      // lend a book
-    public void lendBook() {  
+    public void lendBook() { 
         System.out.println("Enter book title to borrow: ");
         String title = scanner.nextLine();
 
     // scan library inventory
-    // if scan find the book, book
+    // iff loop: if scan find the book, book & collect borrower name
         Book book = findBookByTitle(title);
-           if (book != null) {
-                System.out.println("Enter name of borrower: ");
-                String title = scanner.nextLine(); 
-                book.lendBook(borrower);               
-            } else {
+           if (book != null) { 
+                // TK 
+                if (!book.isLent()) {
+                    System.out.println("Enter name of borrower: ");
+                    String title = scanner.nextLine(); 
+                    book.lendBook(borrower);                       
+                // TK
+                } else { 
                 System.out.println("Book lent to: " + borrower);
-            }
-            
-           
-
+                }
+            } else {
+                System.out.println("Error, book not found.");
+            } 
+    }
 
 
 }
