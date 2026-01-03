@@ -22,7 +22,7 @@ This project allows me to practice Java while celebrating my love of physical me
 ## Future Features
 - Save and load the library to a file.
 - Add DVDs, CDs, and possibly tools like a soldering iron or electronics.
-- Physical card catalog/retro UI (icy Y2K or dark 90s industrial asthetic).
+- Physical card catalog/retro UI (bright 80s, icy Y2K, or dark 90s industrial asthetic).
 - Create 3D assets in Blender.
 
 ## Stack used
