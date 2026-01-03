@@ -1,4 +1,4 @@
-<img width="500" height="500" align="right" alt="new logo" src="https://github.com/user-attachments/assets/5e8c19a4-c013-49fe-a43f-d7b8fa7b08f2" />
+<img width="500" height="500" align="right" alt="logo" src="https://github.com/user-attachments/assets/e25e9fd0-4c5b-4442-b8e5-ff8a6bb05384" />
 
 # Retro Media Emporium
 Retro Media Emporium (RME) is a Java program I am building to track my personal collection of books, DVDs, and CDs. Over the years, I’ve curated a robust physical media library. Friends often borrow items, and sometimes things don’t make it back or memories of lending fade. RME keeps everything organized, making lending fun, social, and accountable.
