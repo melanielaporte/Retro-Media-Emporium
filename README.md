@@ -50,23 +50,23 @@ RetroMediaEmporium/
 ```mermaid
 flowchart TD
 
-    A[User selects an action] --> B{Checkout or Return?}
+    A[User selects an action] --> B{Checkout or Return book?}
 
     %% LEND FLOW
-    B -->|Lend Book| C{Is the book already lent?}
+    B -->|Lend Book| C{Is the book already checked out?}
     C -->|No| D[Mark book as lent]
     D --> E[Store borrower name]
-    E --> F[Confirm: Book lent successfully]
+    E --> F[Confirm: Book checked out successfully]
 
-    C -->|Yes| G[Display error: Book already lent]
+    C -->|Yes| G[Display error: Book already checked out]
 
     %% RETURN FLOW
-    B -->|Return Book| H{Is the book currently lent?}
+    B -->|Return Book| H{Is the book currently checked out?}
     H -->|Yes| I[Clear borrower name]
     I --> J[Mark book as available]
     J --> K[Confirm: Book returned]
 
-    H -->|No| L[Display error: Book was not lent out]
+    H -->|No| L[Display error: Book was not checked out out]
 ```
 
 ## Inspiration
