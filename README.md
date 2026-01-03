@@ -28,7 +28,6 @@ This project allows me to practice Java while celebrating my love of physical me
 ## Stack used
 - Java
 - HTML, CSS, JS (future appearance and interactive upgrades)
-- Blender to build assets (future)
 
 ## How to run the project:
 1. Clone the repository.
