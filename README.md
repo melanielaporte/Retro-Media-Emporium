@@ -74,7 +74,7 @@ flowchart TD
 ```
 
 ## Inspiration
-Inspired by 90s video stores and classic libraries, RME captures the fun of browsing physical media, sharing it with friends, and keeping things organized in one digital package.
+Inspired by 90s video stores and classic libraries, RME captures the experience of browsing physical media, sharing it with friends, and keeping things organized in one digital package.
 
 ## How to Contribute
-Want to contribute? You can add support for site expansion with DVDs and CDs, implement file saving, or create an interactive graphical interface.
+Want to contribute? You can add support for site expansion with DVDs and CDs, implement file saving, or create an interactive graphical interface. 
