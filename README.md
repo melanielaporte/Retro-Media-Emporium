@@ -28,6 +28,7 @@ This project allows me to practice Java while celebrating my love of physical me
 ## Stack used
 - Java
 - HTML, CSS, JS (future appearance and interactive upgrades)
+- React or Swift (website or app)
 
 ## How to run the project:
 1. Clone the repository.
