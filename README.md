@@ -29,6 +29,10 @@ This project allows me to practice Java while celebrating my love of physical me
 - Java
 - HTML, CSS, JS (future appearance and interactive upgrades)
 - React or Swift (website or app)
+- Learn databases to add more users and material
+
+## UI Design
+
 
 ## How to run the project:
 1. Clone the repository.
