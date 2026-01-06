@@ -31,8 +31,8 @@ This project allows me to practice Java while celebrating my love of physical me
 - React or Swift (website or app)
 - Learn databases to add more users and material
 
-## UI Design
-
+## UI Design Wireframe
+<img width="1366" height="1328" alt="RME" src="https://github.com/user-attachments/assets/5c746474-2c28-42b0-bf5c-6aa4b1146ff8" />
 
 ## How to run the project:
 1. Clone the repository.
