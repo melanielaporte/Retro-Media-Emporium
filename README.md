@@ -9,7 +9,7 @@ Retro Media Emporium (RME) is a Java program I built to track my personal collec
 <br>
 <br>
 ## Why I Built This
-This project allows me to practice Java while celebrating my love of physical media and fostering a sense of community. I may even create little physical cards or a mini card catalog, a combination of a 90s-style library system and Blockbuster video store. 
+This project allows me to demonstrate Java skills while celebrating my love of physical media and fostering a sense of community. The next stage is to create scannable little physical cards or a mini card catalog, a combination of a 90s-style library system and Blockbuster video store. 
 
 ## Learning Goals 
 - Object-oriented programming with classes, encapsulation, methods, and constructors (Book.java and Library.java).
